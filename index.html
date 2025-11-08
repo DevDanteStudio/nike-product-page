@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Air Jordan 1 Retro High OG | Nike</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<>
+  <!-- Header -->
+  <header>
+    <nav>
+      <div class="logo">NIKE</div>
+      <ul class="nav-links">
+        <li><a href="#new">New & Featured</a></li>
+        <li><a href="#men">Men</a></li>
+        <li><a href="#women">Women</a></li>
+        <li><a href="#kids">Kids</a></li>
+        <li><a href="#sale">Sale</a></li>
+      </ul>
+      <div class="cart-icon">
+        🛒
+        <span class="cart-count" id="cartCount">0</span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Shopping Cart Sidebar -->
+  <div class="cart-sidebar" id="cartSidebar">
+    <div class="cart-header">
+      <h2>Shopping Cart</h2>
+      <button class="close-cart" id="closeCart">✕</button>
+    </div>
+
+    <div class="cart-items" id="cartItemsContainer">
+      <!-- Cart items will appear here -->
+    </div>
+
+    <div class="cart-footer">
+      <div class="cart-summary">
+        <div class="cart-summary-row">
+          <span>Subtotal:</span>
+          <span id="subtotalPrice">$0.00</span>
+        </div>
+        <div class="cart-summary-row">
+          <span>Shipping:</span>
+          <span>FREE</span>
+        </div>
+        <div class="cart-summary-row total">
+          <span>Total:</span>
+          <span class="total-amount" id="totalPrice">$0.00</span>
+        </div>
+      </div>
+      <button class="checkout-btn">Proceed to Checkout</button>
+      <button class="continue-shopping" id="continueShopping">Continue Shopping</button>
+    </div>
+  </div>
+
+  <!-- Overlay -->
+  <div class="cart-overlay" id="cartOverlay"></div>
+
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Product Section -->
+    <div class="product-section">
+      <!-- Image Gallery -->
+      <div class="image-gallery">
+        <div class="main-image" id="mainImage">
+          <img src="images/bred-side.jpg" alt="Air Jordan Side View" id="mainProductImage">
+          <div class="zoom-lens" id="zoomLens"></div>
+        </div>
+        <div class="zoom-result" id="zoomResult"></div>
+        <div class="thumbnail-container">
+          <div class="thumbnail active" data-img="images/bred-side.jpg">
+            <img src="images/bred-side.jpg" alt="Side View">
+          </div>
+          <div class="thumbnail" data-img="images/bred-front.jpg">
+            <img src="images/bred-front.jpg" alt="Front View">
+          </div>
+          <div class="thumbnail" data-img="images/bred-back.jpg">
+            <img src="images/bred-back.jpg" alt="Back View">
+          </div>
+          <div class="thumbnail" data-img="images/bred-sole.jpg">
+            <img src="images/bred-sole.jpg" alt="Sole View">
+          </div>
+        </div>
+      </div>
+
+      <!-- Product Details -->
+      <div class="product-details">
+        <div>
+          <h1 class="product-title">Air Jordan 1 Retro High OG</h1>
+          <p class="product-subtitle">Men's Shoes</p>
+        </div>
+
+        <div class="price">$170.00</div>
+
+        <div class="rating">
+          <span class="stars">★★★★★</span>
+          <span class="reviews">(2,847 reviews)</span>
+        </div>
+
+        <p class="description">
+          The Air Jordan 1 Retro High remakes the classic sneaker, giving you a fresh look with a familiar feel. Premium
+          materials and accents give modern expression to an all-time favorite.
+        </p>
+
+        <!-- Color Selector -->
+        <div class="color-section">
+          <div class="section-title">
+            <span>Select Color</span>
+          </div>
+          <div class="color-options">
+            <div class="color-option active" data-color="black" data-name="Bred">
+              <div class="color-circle" style="background: linear-gradient(135deg, #000 50%, #dc2626 50%);"></div>
+              <span class="color-name">Bred</span>
+            </div>
+            <div class="color-option" data-color="white" data-name="White/Black">
+              <div class="color-circle"
+                style="background: linear-gradient(135deg, #fff 50%, #000 50%); border: 2px solid #e5e5e5;"></div>
+              <span class="color-name">White/Black</span>
+            </div>
+            <div class="color-option" data-color="blue" data-name="Royal">
+              <div class="color-circle" style="background: linear-gradient(135deg, #1e3a8a 50%, #fff 50%);"></div>
+              <span class="color-name">Royal</span>
+            </div>
+            <div class="color-option" data-color="purple" data-name="White/Purple">
+              <div class="color-circle"
+                style="background: linear-gradient(135deg, #fff 50%, #9333ea 50%); border: 2px solid #e5e5e5;"></div>
+              <span class="color-name">White/Purple</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Size Selector -->
+        <div class="size-section">
+          <div class="section-title">
+            <span>Select Size</span>
+            <span class="size-guide">Size Guide</span>
+          </div>
+          <div class="size-grid">
+            <button class="size-btn" data-size="7">UK 7</button>
+            <button class="size-btn" data-size="7.5">UK 7.5</button>
+            <button class="size-btn" data-size="8">UK 8</button>
+            <button class="size-btn" data-size="8.5">UK 8.5</button>
+            <button class="size-btn" data-size="9">UK 9</button>
+            <button class="size-btn" data-size="9.5">UK 9.5</button>
+            <button class="size-btn" data-size="10">UK 10</button>
+            <button class="size-btn" data-size="10.5">UK 10.5</button>
+            <button class="size-btn" data-size="11">UK 11</button>
+            <button class="size-btn" data-size="11.5">UK 11.5</button>
+            <button class="size-btn" data-size="12">UK 12</button>
+            <button class="size-btn" data-size="13">UK 13</button>
+          </div>
+        </div>
+
+        <!-- Quantity Selector -->
+        <div class="quantity-section">
+          <span class="section-title">Quantity</span>
+          <div class="quantity-controls">
+            <button class="qty-btn" id="decreaseQty">-</button>
+            <span class="qty-display" id="qtyDisplay">1</span>
+            <button class="qty-btn" id="increaseQty">+</button>
+          </div>
+        </div>
+
+        <!-- Error/Success Messages -->
+        <div class="error-message" id="errorMessage">
+          Please select a size before adding to cart
+        </div>
+        <div class="success-message" id="successMessage">
+          Added to cart successfully! 🎉
+        </div>
+
+        <!-- Add to Cart Buttons -->
+        <button class="add-to-cart-btn" id="addToCartBtn">
+          <span class="btn-text">Add to Cart</span>
+          <span class="btn-loader"></span>
+        </button>
+        <button class="wishlist-btn" id="wishlistBtn">
+          <span class="heart-icon" id="heartIcon">♡</span>
+          <span id="wishlistText">Add to Wishlist</span>
+        </button>
+
+        <!-- Shipping Banner -->
+        <div class="shipping-banner">
+          🚚 FREE SHIPPING ON ORDERS OVER $50
+        </div>
+
+        <!-- Features Section -->
+        <div class="features-section fade-in-up">
+          <h3 class="section-title">Product Features</h3>
+          <div class="features-grid">
+            <div class="feature-item">
+              <div class="feature-icon">👟</div>
+              <div class="feature-text">
+                <h4>Premium Leather</h4>
+                <p>High-quality leather upper for durability</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">💨</div>
+              <div class="feature-text">
+                <h4>Air Cushioning</h4>
+                <p>Nike Air technology for comfort</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">🎨</div>
+              <div class="feature-text">
+                <h4>Iconic Design</h4>
+                <p>Classic colorway with modern appeal</p>
+              </div>
+            </div>
+            <div class="feature-item">
+              <div class="feature-icon">⚡</div>
+              <div class="feature-text">
+                <h4>Rubber Outsole</h4>
+                <p>Durable traction on any surface</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Tabs -->
+  <div class="product-tabs-section fade-in-up">
+    <div class="tabs-header">
+      <button class="tab-btn active" data-tab="description">Description</button>
+      <button class="tab-btn" data-tab="shipping">Shipping & Returns</button>
+      <button class="tab-btn" data-tab="reviews">Reviews</button>
+    </div>
+
+    <div class="tabs-content">
+      <!-- Description Tab -->
+      <div class="tab-panel active" id="description">
+        <h3>Product Description</h3>
+        <p>The Air Jordan 1 Retro High OG remakes the classic sneaker, giving you a fresh look with a familiar feel.
+          Premium materials, iconic design, and exceptional comfort make this a must-have addition to any sneaker
+          collection.</p>
+
+        <h4>Key Features:</h4>
+        <ul>
+          <li>Premium leather upper for durability and style</li>
+          <li>Nike Air cushioning for all-day comfort</li>
+          <li>Rubber outsole with pivot circle for excellent traction</li>
+          <li>Padded collar for extra comfort and support</li>
+          <li>Classic colorway with modern appeal</li>
+        </ul>
+
+        <h4>Style:</h4>
+        <p>Color: Varies by selection<br>
+          Style: 555088-XXX<br>
+          Country/Region of Origin: Vietnam</p>
+      </div>
+
+      <!-- Shipping Tab -->
+      <div class="tab-panel" id="shipping">
+        <h3>Shipping Information</h3>
+        <p><strong>Free Standard Shipping</strong> on orders over $50</p>
+
+        <h4>Delivery Options:</h4>
+        <ul>
+          <li><strong>Standard Shipping (5-7 business days):</strong> $5.99</li>
+          <li><strong>Express Shipping (2-3 business days):</strong> $12.99</li>
+          <li><strong>Next Day Delivery:</strong> $24.99</li>
+        </ul>
+
+        <h4>Returns Policy:</h4>
+        <p>We offer free returns within 30 days of purchase. Items must be unworn, unwashed, and in original packaging
+          with tags attached.</p>
+      </div>
+
+      <!-- Reviews Tab -->
+      <div class="tab-panel" id="reviews">
+        <h3>Customer Reviews</h3>
+
+        <div class="reviews-summary">
+          <div class="rating-overview">
+            <div class="rating-number">4.8</div>
+            <div class="rating-stars">★★★★★</div>
+            <div class="rating-count">2,847 reviews</div>
+          </div>
+          <button class="write-review-btn">Write a Review</button>
+        </div>
+
+        <div class="reviews-list">
+          <div class="review-item">
+            <div class="review-header">
+              <div class="reviewer-info">
+                <div class="reviewer-name">Marcus J.</div>
+                <div class="review-stars">★★★★★</div>
+              </div>
+              <div class="review-date">2 days ago</div>
+            </div>
+            <div class="review-title">Best Jordan 1s Ever!</div>
+            <div class="review-text">
+              These are absolutely fire! The quality is amazing, leather feels premium. Fit perfectly true to size.
+              Getting compliments everywhere I go. Worth every penny!
+            </div>
+            <div class="review-verified">✓ Verified Purchase</div>
+          </div>
+        </div>
+
+        <button class="load-more-reviews">Load More Reviews</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section fade-in-up">
+        <h3>Get Help</h3>
+        <ul>
+          <li>Order Status</li>
+          <li>Delivery</li>
+          <li>Returns</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>About Nike</h3>
+        <ul>
+          <li>News</li>
+          <li>Careers</li>
+          <li>Investors</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Shop</h3>
+        <ul>
+          <li>Men's Shoes</li>
+          <li>Women's Shoes</li>
+          <li>Kids' Shoes</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>Follow Us</h3>
+        <ul>
+          <li>Instagram</li>
+          <li>Twitter</li>
+          <li>Facebook</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Nike, Inc. | Built by DevDanteStudio 🔥</p>
+    </div>
+  </footer>
+
+  <!-- Size Chart Modal -->
+  <div class="modal-overlay" id="sizeChartModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Size Guide</h2>
+        <button class="modal-close" id="closeSizeChart">✕</button>
+      </div>
+      <div class="modal-body">
+        <p>Find your perfect fit using our size chart below:</p>
+
+        <table class="size-chart-table">
+          <thead>
+            <tr>
+              <th>UK Size</th>
+              <th>US Size</th>
+              <th>EU Size</th>
+              <th>Foot Length (cm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>7</td>
+              <td>8</td>
+              <td>41</td>
+              <td>25.0</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>9</td>
+              <td>42.5</td>
+              <td>26.0</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>10</td>
+              <td>44</td>
+              <td>27.0</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>11</td>
+              <td>45</td>
+              <td>28.0</td>
+            </tr>
+            <tr>
+              <td>11</td>
+              <td>12</td>
+              <td>46</td>
+              <td>29.0</td>
+            </tr>
+            <tr>
+              <td>12</td>
+              <td>13</td>
+              <td>47.5</td>
+              <td>30.0</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="size-tips">
+          <h3>Fitting Tips:</h3>
+          <ul>
+            <li>Measure your foot in the afternoon</li>
+            <li>Wear the socks you plan to wear with the shoes</li>
+            <li>If between sizes, we recommend sizing up</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button id="backToTop" class="back-to-top">↑</button>
+  
+  <script src="script.js"></script>
+  
+</body>
+
+</html>
