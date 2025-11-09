@@ -75,7 +75,7 @@ cd nike-product-page
 
 3. Open in browser
 
-- Simply double-click `index.html`
+- Simply double click `index.html`
 - OR use Live Server extension in VS Code
 
 ## Project Structure
@@ -101,11 +101,11 @@ Dynamic image switching based on selected colorway with organized data structure
 
 ### Smart Cart Logic
 
-Cart items grouped by product, size, and color with real-time total calculations.
+Cart items grouped by product, size, and color with real time total calculations.
 
 ### Scroll Animations
 
-Intersection-based animations that trigger as elements enter viewport.
+Intersection based animations that trigger as elements enter viewport.
 
 ### Modal System
 
@@ -144,7 +144,7 @@ This project demonstrates:
 **DevDanteStudio**
 
 - GitHub: [@DevDanteStudio](https://github.com/DevDanteStudio)
-- Building in public: 30-day coding challenge
+- Building in public: 30day coding challenge
 
 ## License
 
@@ -153,11 +153,11 @@ This project is open source and available for learning purposes.
 ## Acknowledgments
 
 - Inspired by Nike.com
-- Built as part of 30-day web development challenge
+- Built as part of 30day web development challenge
 - Week 2 project (Days 6-10)
 
 ---
 
 **Built with Music and Water by DevDanteStudio**
 
-_Day 6-10 of my 30-day coding journey_
+Day 6-10 of my 30day coding journey
